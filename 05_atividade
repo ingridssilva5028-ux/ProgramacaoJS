@@ -1,0 +1,38 @@
+// Atividade proposta 
+let prompt = require ("prompt-sync")() // importar 
+console.log("------ CADASTRO DE PREÇO - CONRADITO DOGUEZITO -------")
+let produto1 = parseFloat(prompt("Digite o preço do Pão:"))
+let produto2 =  parseFloat(prompt("Digite o preço do Salsicha:"))
+let produto3 =  parseFloat(prompt("Digite o preço do Purê de batata:"))
+let produto4 =  parseFloat(prompt("Digite o preço do Queijo:"))
+let produto5 =  parseFloat(prompt("Digite o preço do Bacon:")) 
+
+let porcentagem = parseFloat(prompt("Digite a porcentagem do produto:")) 
+console.log("------- CARDÁPIO CONRADITO DOGUEZITO --------")
+
+let lucro = parseFloat(prompt("Lucro aplicado:"))
+
+console.log("------ CACHORRO-QUENTE COM PURÊ ------")
+console.log("Ingredientes:")
+let item1 = parseFloat(prompt("Pão "))
+let item2 = parseFloat(prompt("1 purê de batata "))
+let item3 = parseFloat(prompt("1 bacon "))
+let item4 = parseFloat(prompt("1 salsicha "))
+let preco_custo = parseFloat(prompt("Preço de custo:" ))
+let preco_venda = parseFloat(prompt("Preço de venda:" ))
+
+console.log("------ CACHORRO-QUENTE CREMOSO -------")
+console.log("Ingredientes:" )
+let uten1 = parseFloat(prompt("Pão "))
+let uten2 = parseFloat(prompt("2 salsichas "))
+let uten3 = parseFloat(prompt("1 queijo "))
+
+console.log("------ CACHORRO-QUENTE ESPECIAL -----")
+console.log("Ingredientes:" )
+let log1 = parseFloat(prompt("Pão "))
+let log2 = parseFloat(prompt("1 salsicha "))
+let log3 = parseFloat(prompt("1 purê de batata  "))
+let log4 = parseFloat(prompt("1 queijo"))
+let log5 = parseFloat(prompt("1 bacon")) 
+
+console.log("------ COMBO --------") 
