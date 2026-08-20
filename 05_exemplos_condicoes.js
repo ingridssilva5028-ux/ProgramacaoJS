@@ -7,3 +7,12 @@ if( usuario == "Conrado"){
 } else {
     console.log("Acesso negado....")
 }
+let idade = parseInt(prompt("Digite sua idade:"))
+if(idade > 99 ){
+    console.log("Idade inválida! Tente novamente .... " )
+}
+else{
+    console.log("Idade válida!" )
+}
+
+console.log("A idade digitada foi:" +idade ) 
